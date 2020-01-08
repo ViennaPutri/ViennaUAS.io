@@ -1,0 +1,132 @@
+  body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+  }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+      font-family: tw cen mt font;
+    }
+    image  {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+  .image   {
+    display: block;
+    width: 100%;
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 2px;
+    height: 100%;
+    width: 95%;
+    opacity: 0;
+    transition: .5s;
+    background-color: #212121;
+  }
+
+
+  .container:hover .overlay {
+    opacity: 0.70;
+    cursor: pointer;
+  }
+
+  .text a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 5%;
+    text-align: center;
+    font-family: tw cen mt font;
+  }
+  .text a:hover{
+      background-color: black;
+      color: white;
+      transition: .5s;
+  }
+#selingan{
+  width: 100%;
+  padding: 10px 0px;
+}
+#selingan img{
+  height: 1000px;
+}
+#selingan .text1{
+  color: red;
+  position: absolute;
+  margin-top: -60%;
+  float: left;
+  padding: 10px 10px;
+  color: white;
+
+}
+
+  .underline br{
+    width: 100%;
+  }
+  .atas{
+    margin-left: 33.3%;
+    margin-top: -25%;
+  }
+  @media screen and (max-width: 992px) {
+  .media {
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .media{
+    margin-top: 10%;
+    right: 20%;
+  }
+}
+.judul {
+  color: #c3bcbc;
+  font-family:tw cen mt font; 
+}
+.top{
+  width: 70%;
+}
+.text-about h2 p{
+  font-family: Ubuntu; 
+  font-size: 20px; 
+  background-color: #EFAC25; 
+  padding: 10.6%; 
+  color:#4a4848; 
+  border-radius: 20px;
+}
+.map-container{
+overflow:hidden;
+padding-bottom:96.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+p @media screen and (max-width: 600px) {
+  p .media1{
+    margin-top: 60%;
+    right: 20%;
+  }
+}
